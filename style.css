@@ -1,0 +1,103 @@
+  .permanent-marker-regular {
+    font-family: "Permanent Marker", cursive;
+    font-weight: 400;
+    font-size: 300%;
+    color:white;
+    font-style: normal;
+    text-shadow: 3px 3px 3px #ababab
+  }
+  .zcool-kuaile-regular {
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-weight: 400;
+    font-size: 200%;
+    color:white;
+    font-style: normal;
+    text-shadow: 3px 3px 3px #ababab
+  }
+  .zcool-kuaile-big {
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-weight: 400;
+    font-size: 400%;
+    color:white;
+    font-style: normal;
+    text-shadow: 3px 3px 3px #ababab
+  }
+  .jersey-10-regular {
+    font-family: "Jersey 10", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: white;
+    font-size: 48px;
+    text-shadow: 3px 3px 3px white;
+    text-align: center;
+  }  
+  body {
+    background-image: url("images/MainBackground.png");
+    background-attachment: scroll;
+    background-repeat: repeat;
+  }
+  button {
+    border: 2px solid #ffffff;
+    color: rgb(255, 255, 255);
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    background-color: black;
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    text-shadow: 3px 3px 3px #ababab;
+    display: inline-block;
+    font-size: 32px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 3px 3px 3px gray;
+    border-radius: 16px;
+  }
+  .butten:hover,.butten:active{
+    background-color: rgba(255,255,255,0.15);
+    transition: 0.5s;
+  }
+  .DetailButten{
+    width:315px;
+    height:250px;
+    border: 2px solid #ffffff;
+    padding: 1px 1px;
+    box-shadow: 0px 0px 16px white;
+    border-radius: 8px;
+    display: block;
+  }
+  .DetailButten:hover,.DetailButten:active{
+    background-image: "images/TopPageHover.png";
+    transition: 0.5s;
+  }
+  .PageImg{
+    transition:0.5s;
+    width:315px;
+    height:250px;
+    border: 2px solid #ffffff;
+    padding: 1px 1px;
+    box-shadow: 0px 0px 16px white;
+    border-radius: 8px;
+    display: block;
+    cursor: pointer;
+  }
+  .PageImg:hover,.PageImg:active{
+    opacity: 0.7;
+    background-color: white;
+  }
+  .HomepagePartFormat{
+    margin:128px;
+    display: inline-block;
+  }
+  .HomepageWholeFormat{
+    position: absolute;
+    left: 5%;
+  }
+  .UpdateFont {
+    display:block;
+    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-weight: 200;
+    font-size: 100%;
+    color:white;
+    font-style: normal;
+  }
