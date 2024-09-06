@@ -141,9 +141,4 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
   }
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-  }
   
