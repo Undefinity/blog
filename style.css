@@ -141,4 +141,16 @@
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
   }
-  
+  .BackButten{
+    width:256px;
+    height: 64px;
+    border: 2px solid #ffffff;
+    padding: 1px 1px;
+    box-shadow: 0px 0px 16px white;
+    border-radius: 8px;
+    display: block;
+  }
+  .BackButten:hover,.BackButten:active{
+    background-color: #ababab;
+    transition: 0.5s;
+  }
