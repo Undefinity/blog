@@ -140,6 +140,9 @@
   .HomepageContainer{
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 50% 50%;
+    grid-row: 336px;
+    grid-row-gap: 16px;
   }
   .BackButten{
     width:256px;
